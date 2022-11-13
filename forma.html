@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация rail.ru</title>
+  </head>
+  <body>
+    <div>
+        <h1>Регистрация</h1>
+      <form name="f1" method="get" action="enter_data.php"></form>
+      <input name="link" type="hidden" value="index.php" />
+      Логин: <br />
+      <input name="login" type="text" size="25" maxlength="30" value="" /><br />
+      Пароль: <br />
+      <input name="pd" type="password" size="25" maxlength="30" value="" /> <br />
+      Повторить пароль: <br />
+      <input name="pd" type="password" size="25" maxlength="30" value="" /> <br />
+      <input type="radio" name="gender" value="male" checked> Мужской<br>
+      <input type="radio" name="gender" value="female"> Женский<br>
+      <input type="radio" name="gender" value="other"> Другой<br>
+      <br>
+      <input type="submit" name="enter" value="Зарегистрироваться" /> <input name="remember" type="checkbox" value="yes" /> Запомнить <br />
+      <a href="rail/login.ru">Уже есть аккаунт</a>
+    </form>
+    </div>
+  </body>
+</html>
